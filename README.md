@@ -9,7 +9,7 @@ DOOM inside your terminal
 ### Install (macOS & Linux):
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/dcouple/terminal-doom/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/greenfield-inc/terminal-doom/main/install.sh | bash
 ```
 
 The game comes with it, wad included.
@@ -67,11 +67,11 @@ game, drop your own iwad in as `web/doom1.wad`.
 ### How this was made
 
 Two agents made this, each doing the job it is good at. I run my work inside
-[Pane](https://github.com/dcouple/Pane), a workspace that gives every task its
+[Pane](https://github.com/greenfield-inc/Pane), a workspace that gives every task its
 own git worktree and agent terminal. A chat orchestrator sits above the agents,
 a Claude Fable 5 session running the pane-orchestrator skill from
-[dcouple/skills](https://github.com/dcouple/skills) with the workflow
-conventions from [dcouple/orchestra](https://github.com/dcouple/orchestra). It
+[greenfield-inc/skills](https://github.com/greenfield-inc/skills) with the workflow
+conventions from [greenfield-inc/orchestra](https://github.com/greenfield-inc/orchestra). It
 writes the briefs, dispatches the work, and carries my messages to agents while
 they run.
 
@@ -174,7 +174,7 @@ independent of them.
 ### Thanks
 
 - [terminal-browser](https://github.com/zenbu-labs/terminal-browser), which does the hard part
-- [Pane](https://github.com/dcouple/Pane), [dcouple/skills](https://github.com/dcouple/skills) and [dcouple/orchestra](https://github.com/dcouple/orchestra), the workspace and orchestration this was built inside
+- [Pane](https://github.com/greenfield-inc/Pane), [greenfield-inc/skills](https://github.com/greenfield-inc/skills) and [greenfield-inc/orchestra](https://github.com/greenfield-inc/orchestra), the workspace and orchestration this was built inside
 - [terminal-code](https://github.com/zenbu-labs/terminal-code), which showed a web app in a terminal pane can be a real product
 - [cloudflare/doom-wasm](https://github.com/cloudflare/doom-wasm) and [Chocolate Doom](https://github.com/chocolate-doom/chocolate-doom)
 - id Software, for shipping the source

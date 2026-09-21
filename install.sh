@@ -2,13 +2,13 @@
 # terminal-doom installer.
 #
 #   curl -fsSL https://terminal-doom.sh/install | bash        (once the domain is up)
-#   curl -fsSL https://raw.githubusercontent.com/dcouple/terminal-doom/main/install.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/greenfield-inc/terminal-doom/main/install.sh | bash
 #
 # Pulls the terminal-doom tree out of the repo, installs terminal-browser if it
 # is not already here, and drops a terminal-doom on your PATH.
 set -euo pipefail
 
-REPO="${TERMINAL_DOOM_REPO:-dcouple/terminal-doom}"
+REPO="${TERMINAL_DOOM_REPO:-greenfield-inc/terminal-doom}"
 BRANCH="${TERMINAL_DOOM_BRANCH:-main}"
 LIB_HOME="${XDG_DATA_HOME:-$HOME/.local/lib}"
 BIN_HOME="${XDG_BIN_HOME:-$HOME/.local/bin}"
